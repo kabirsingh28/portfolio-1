@@ -282,3 +282,12 @@ main::-webkit-scrollbar{
     font-weight: 400;
   }
 }
+
+.projectContainer img{
+  border-radius: 50%;
+}
+
+.projectContainer h4 a{
+  text-decoration: none;
+  color: black;
+}
