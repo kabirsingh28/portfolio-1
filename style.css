@@ -217,6 +217,9 @@ main::-webkit-scrollbar{
 .projectContainer{
   display: flex;
   width: 90%;
+  margin-bottom: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
 }
 
 .projectContainer > img{
@@ -344,4 +347,13 @@ main::-webkit-scrollbar{
 
 .social_2 img{
    width: 40px;
+}
+
+.social-beta{
+  display: flex;
+}
+
+.soical-beta img{
+  margin-top: 5px;
+  width: 23px;
 }
