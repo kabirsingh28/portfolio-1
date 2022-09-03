@@ -107,7 +107,7 @@ main::-webkit-scrollbar{
 
 .navigationMenu > a:hover{
   transition: ease-in-out 300ms;
-  font-size: 18px;
+  color: #555;
 }
 
 @media only screen and (max-width: 760px){
@@ -304,7 +304,7 @@ main::-webkit-scrollbar{
   align-items: center;
   justify-content: center;
   border-bottom: #555 solid 2px;
-  width: 300px;
+  width: 150px;
   margin: auto;
 }
 
@@ -360,7 +360,7 @@ main::-webkit-scrollbar{
 
 .resume{
   margin: 2rem;
-  width: 30%;
+  width: 290px;
   margin: auto;
   text-align: center;
   background-color: rgb(255 255 255 / 31%);
