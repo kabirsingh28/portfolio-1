@@ -138,6 +138,11 @@ main::-webkit-scrollbar{
   border: 4px solid white;
 }
 
+.profileImage:hover{
+  transition: ease-in-out 300ms;
+  border: 6px solid white;
+}
+
 .herosectionDetails{
   text-align: center;
 }
@@ -223,11 +228,14 @@ main::-webkit-scrollbar{
   border-bottom: 1px solid white;
 }
 
+
+
 .projectContainer > img{
   width: 60px;
   height: 60px;
   padding-right: 10px;
 }
+
 
 .projectContainer > .projectDescription > h4{
   margin: 0;
@@ -368,4 +376,11 @@ main::-webkit-scrollbar{
   border: 1px solid rgb(255 255 255 / 31%);
   border-radius: 5px;
   padding: 2rem;
+}
+
+.resume a img:hover{
+  transition: ease-in-out 300ms;
+  transform: scale(1.1);
+
+  
 }
