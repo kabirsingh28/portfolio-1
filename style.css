@@ -166,7 +166,7 @@ main::-webkit-scrollbar{
 .skillsAndProjects{
   margin: 1rem;
   display: grid;
-  grid-template-columns: [one] 50% [two] 50%;
+  grid-template-columns: [one] 30% [two] 70%;
   grid-gap: 10px;
   align-items: center;
   justify-content: center;
@@ -296,7 +296,7 @@ main::-webkit-scrollbar{
 }
 
 .projectContainer img{
-  border-radius: 50%;
+  border-radius: 10px;
 }
 
 .projectContainer h4 a{
@@ -367,9 +367,13 @@ main::-webkit-scrollbar{
   width: 23px;
 }
 
+.skills{
+  height: 500px;
+}
+
 .resume{
   margin: 2rem;
-  width: 290px;
+  width: 90%;
   margin: auto;
   text-align: center;
   background-color: rgb(255 255 255 / 31%);
